@@ -22,7 +22,7 @@ This setting randomly masking the binding events within the knowledge graph, fol
 | GAT   | 28   | 男     | 男     | 男     |      |
 | SAGE   | 28   | 男     | 男     | 男     |      |
 | NCN   | 154.3±8.9   |0.290±0.011      | 0.496±0.007     | 0.630±0.005     |0.769±0.010      |
-| KGE_NFM   | 28   | 男     | 男     | 男     |      |
+| KGE_NFM   | 300.3±9.5   | 0.066±0.006     | 0.141±0.020     | 0.289±0.027     |0.516±0.032      |
 
 * Targets fishing
 
