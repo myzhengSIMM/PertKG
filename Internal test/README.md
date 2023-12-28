@@ -42,6 +42,6 @@ This setting randomly masking the binding events within the knowledge graph, fol
 | KGE_NFM   | 72.0±1.1   | 0.367±0.138     | 0.622±0.209     | 男     |      |
 
 ## Hard cold-start settings
-This settings are more challengable than normal cold-starts (details refer our papar) to evaluate the generalization capabilities. For convenience, we directly use the model trained under Random masking setting to evaluate the samples in the test set that meet hard cold-start settings.
+This settings are more challengable than normal cold-starts (details refer to our papar) to evaluate the generalization capabilities. For convenience, we directly use the model trained under Random masking setting to evaluate the samples in the test set that meet hard cold-start settings.
 
 ![](./Extended.4.jpg)
