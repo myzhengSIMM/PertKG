@@ -4,7 +4,7 @@ Compound-protein interactions prediction based on transcriptomic data provides a
 
 ## Requirements
 Dependencies (with python >= 3.7): 
-Main dependencies is [TorchKGE](https://github.com/torchkge-team/torchkge/tree/master)
+Main dependencies is [TorchKGE](https://github.com/torchkge-team/torchkge/tree/master)  
 Others can be touched in requirments.txt
 
 
