@@ -2,10 +2,10 @@
 Considering the standard paradigm of causal reasoning (causal reasoning = predefined prior knowledge network (PKN) + scoring function), an internal test in LINCS Phase I was conducted to identify a more generalizable link prediction algorithm for PertKG's scoring function. In this section, We evaluated 12 algorithms, including 11 link prediction algorithms commonly used in the [Open Graph Benchmark (OGB)](https://ogb.stanford.edu/docs/leader_linkprop/), and KGE_NFM (2021, NC), as it can also be applied to our knowledge graph.
 
 ## Implement
-Most LP algorithm‘s implement can be find in the OGB, including CN,AA,RA,NCN. KGE methods (TransE/TransH/DistMult/ComplEx) was implement by using TorchKGE, detailes plz refer to our codes. Three commonly used GNN (GCN/GAT/SAGE) was reimplemented by ourselves, each has three gnn layers equiped with linear layers. KGE_NFM was introduced by field recently, we just follow the same settings (hyper-para) in provied code.
+Most LP algorithm‘s implement can be find in the OGB, including CN,AA,RA,NCN. KGE methods (TransE/TransH/DistMult/ComplEx) in this work were implement by using TorchKGE, detailes plz refer to our codes. Three commonly used GNN (GCN/GAT/SAGE) were reimplemented by ourselves, each has three gnn layers equiped with linear layers. KGE_NFM was introduced by field recently, we just follow the same settings (hyper-para) in provied code.
 
 ## Random mask setting
-This setting randomly masking the binding events within the knowledge graph, following an 8:1:1 ratio. To evaluate efficiently, for each masked positive edge, we sampled 3,000 decoys from the corresponding node type respectively. learning-based methods was reruned 5 times to report mean±std.
+This setting randomly masking the binding events within the knowledge graph, following an 8:1:1 ratio. To evaluate efficiently, for each masked positive edge, we sampled 3,000 decoys from the corresponding node type respectively. Learning-based methods was reruned 5 times to report mean±std.
 
 * Actives screening
 
@@ -39,7 +39,7 @@ This setting randomly masking the binding events within the knowledge graph, fol
 | GAT   | 97.7±5.0   | 0.363±0.015     | 0.628±0.015     | 0.753±0.013     |0.863±0.016      |
 | SAGE   | 181.5±39.7   | 0.308±0.015     | 0.578±0.017     | 0.734±0.012     |0.824±0.007      |
 | NCN   | 72.0±1.1   |0.367±0.138      | 0.622±0.209     | 0.783±0.010     |0.901±0.005      |
-| KGE_NFM   | 72.0±1.1   | 0.367±0.138     | 0.622±0.209     | 男     |      |
+| KGE_NFM   | 116.3±8.7   | 0.134±0.009     | 0.293±0.028     | 0.527±0.035     |0.770±0.017      |
 
 ## Hard cold-start settings
 This settings are more challengable than normal cold-starts (details refer to our papar) to evaluate the generalization capabilities. For convenience, we directly use the model trained under Random masking setting to evaluate the samples in the test set that meet hard cold-start settings.
