@@ -4,6 +4,7 @@ Considering the standard paradigm of causal reasoning (causal reasoning = predef
 ## Random mask settings
 
 * Actives_screening
+
 | Method   | MRR | Hits@10  | Hits@30  | Hits@100  |
 |--------|------|--------|--------|--------|
 | CN   | 25   | 男     | 男     | 男     |
