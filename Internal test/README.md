@@ -44,3 +44,4 @@ This setting randomly masking the binding events within the knowledge graph, fol
 ## Hard cold-start settings
 This settings are more challengable than normal cold-starts (details refer our papar) to evaluate the generalization capabilities. For convenience, we directly use the model trained under Random masking setting to evaluate the samples in the test set that meet hard cold-start settings.
 
+![](/Extended.4.png)
