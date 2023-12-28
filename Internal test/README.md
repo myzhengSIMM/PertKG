@@ -6,8 +6,8 @@ Considering the standard paradigm of causal reasoning (causal reasoning = predef
 
 | Method   | MR | MRR | Hits@10  | Hits@30  | Hits@100  |
 |--------|------|------|--------|--------|--------|
-| CN   | 1155.2   | 0.179     | 0.291     |0.390     |0.508      |
-| AA   | 1136.7   | 0.228     | 0.360     | 0.486     |0.583      |
+| CN   | 1155.2   | 0.179 | 0.291 |0.390 |0.508 |
+| AA   | 1136.7   | 0.228 | 0.360 |0.486 |0.583 |
 | RA   | 28   | 男     | 男     | 男     |      |
 | TransE   | 28   | 男     | 男     | 男     |      |
 | TransH   | 28   | 男     | 男     | 男     |      |
