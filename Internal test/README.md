@@ -7,7 +7,7 @@ Most LP algorithm‘s implement can be find in the OGB, including CN,AA,RA,NCN. 
 ## Random mask setting
 This setting randomly masking the binding events within the knowledge graph, following an 8:1:1 ratio. To evaluate efficiently, for each masked positive edge, we sampled 3,000 decoys from the corresponding node type respectively. learning-based methods was reruned 5 times to report mean±std.
 
-* Actives_screening
+* Actives screening
 
 | Method   | MR | MRR | Hits@10  | Hits@30  | Hits@100  |
 |--------|------|------|--------|--------|--------|
@@ -24,7 +24,7 @@ This setting randomly masking the binding events within the knowledge graph, fol
 | NCN   | 154.3±8.9   |0.290±0.011      | 0.496±0.007     | 0.630±0.005     |0.769±0.010      |
 | KGE_NFM   | 28   | 男     | 男     | 男     |      |
 
-* Targets_fishing
+* Targets fishing
 
 | Method   | MR | MRR | Hits@10  | Hits@30  | Hits@100  |
 |--------|------|------|--------|--------|--------|
@@ -40,3 +40,7 @@ This setting randomly masking the binding events within the knowledge graph, fol
 | SAGE   | 181.5±39.7   | 0.308±0.015     | 0.578±0.017     | 0.734±0.012     |0.824±0.007      |
 | NCN   | 72.0±1.1   |0.367±0.138      | 0.622±0.209     | 0.783±0.010     |0.901±0.005      |
 | KGE_NFM   | 72.0±1.1   | 0.367±0.138     | 0.622±0.209     | 男     |      |
+
+## Hard cold-start settings
+This settings are more challengable than normal cold-starts (details refer our papar) to evaluate the generalization capabilities. For convenience, we directly use the model trained under Random masking setting to evaluate the samples in the test set that meet hard cold-start settings.
+
