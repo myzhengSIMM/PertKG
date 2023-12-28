@@ -6,7 +6,19 @@ Considering the standard paradigm of causal reasoning (causal reasoning = predef
 * Actives_screening
 | Method   | MRR | Hits@10  | Hits@30  | Hits@100  |
 |--------|------|--------|--------|--------|
-| 张三   | 25   | 男     | 男     | 男     |
-| 李四   | 30   | 女     | 男     | 男     |
-| 王五   | 28   | 男     | 男     | 男     |
+| CN   | 25   | 男     | 男     | 男     |
+| AA   | 30   | 女     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
+| RA   | 28   | 男     | 男     | 男     |
 
