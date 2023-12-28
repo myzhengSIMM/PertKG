@@ -37,4 +37,4 @@ Most LP algorithm‘s implement can be find in the OGB, including CN,AA,RA,NCN. 
 | GAT   | 28   | 男     | 男     | 男     |      |
 | SAGE   | 28   | 男     | 男     | 男     |      |
 | NCN   | 154.3±8.9   |0.290±0.011      | 0.496±0.007     | 0.630±0.005     |0.769±0.010      |
-| KGE_NFM   | 72.0±1.1   | 0.367±     | 男     | 男     |      |
+| KGE_NFM   | 72.0±1.1   | 0.367±0.138     | 0.622±0.209     | 男     |      |
