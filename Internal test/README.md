@@ -4,7 +4,9 @@ Considering the standard paradigm of causal reasoning (causal reasoning = predef
 ## Implement
 Most LP algorithm‘s implement can be find in the OGB, including CN,AA,RA,NCN. KGE methods (TransE/TransH/DistMult/ComplEx) was implement by using TorchKGE, detailes plz refer to our codes. Three commonly used GNN (GCN/GAT/SAGE) was implemented by ourselves, each has three gnn layers equiped with linear layers. KGE_NFM was introduced by field recently, we just follow the same settings (hyper-para) in provied code.
 
-## Random mask settings
+## Random mask setting
+This setting randomly masking the binding events within the knowledge graph, following an 8:1:1 ratio. To evaluate efficiently, for each masked positive edge, we sampled 3,000 decoys from the corresponding node type respectively. learning-based methods was reruned 5 times to report mean±std.
+
 * Actives_screening
 
 | Method   | MR | MRR | Hits@10  | Hits@30  | Hits@100  |
