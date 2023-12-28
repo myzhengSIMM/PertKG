@@ -2,7 +2,7 @@
 Considering the standard paradigm of causal reasoning (causal reasoning = predefined prior knowledge network (PKN) + scoring function), an internal test in LINCS Phase I was conducted to identify a more generalizable link prediction algorithm for PertKG's scoring function. In this section, We evaluated 12 algorithms, including 11 link prediction algorithms commonly used in the [Open Graph Benchmark (OGB)](https://ogb.stanford.edu/docs/leader_linkprop/), and KGE_NFM (2021, NC), as it can also be applied to our knowledge graph.
 
 ## Implement
-Most LP algorithm‘s implement can be find in the OGB, including CN,AA,RA,NCN. KGE methods (TransE/TransH/DistMult/ComplEx) was implement by using TorchKGE, detailes plz refer to our codes. KGE_NFM was introduced by field recently, we just follow the same settings (hyper-para) in provied code.
+Most LP algorithm‘s implement can be find in the OGB, including CN,AA,RA,NCN. KGE methods (TransE/TransH/DistMult/ComplEx) was implement by using TorchKGE, detailes plz refer to our codes. Three commonly used GNN (GCN/GAT/SAGE) was implemented by ourselves, each has three gnn layers equiped with linear layers. KGE_NFM was introduced by field recently, we just follow the same settings (hyper-para) in provied code.
 
 ## Random mask settings
 * Actives_screening
